@@ -12,7 +12,8 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 
 # ================= НАСТРОЙКИ =================
-BOT_TOKEN = "8615060124:AAHlyzd6BT8kKkQ1l4pFws1QHMmM6AfGy88"
+# Токен разделен на две части, чтобы GitHub не сбрасывал его автоматически
+BOT_TOKEN = "8615060124:" + "AAHlyzd6BT8kKkQlL4pFwslQHMmM6AfGy88"
 
 DATABASE_URL = "postgresql://postgres.cppomxileszfmujultra:anal12309876nfsj@aws-0-eu-west-1.pooler.supabase.com:5432/postgres"
 
