@@ -12,10 +12,9 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 
 # ================= НАСТРОЙКИ =================
-BOT_TOKEN = "8615060124:AAHlyzd6BT8kKkQlL4pFwslQHMmM6AfGy88"
+BOT_TOKEN = "8615060124:AAHlyzd6BT8kKkQ1l4pFws1QHMmM6AfGy88"
 
-# Твоя ссылка подключения из Supabase (замени ТВОЙ_ПАРОЛЬ_ОТ_БАЗЫ на свой пароль)
-DATABASE_URL = "postgresql://postgres.cppomxileszfmujultra:anal12309876nfs@aws-0-eu-west-1.pooler.supabase.com:5432/postgres"
+DATABASE_URL = "postgresql://postgres.cppomxileszfmujultra:anal12309876nfsj@aws-0-eu-west-1.pooler.supabase.com:5432/postgres"
 
 HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", 5000))
